@@ -1,0 +1,114 @@
+body {
+    background-image: url('img/hatter.jpg');
+    background-repeat: repeat;
+}
+
+.egesz {
+    margin: auto;
+}
+
+.fejlec {
+    background-image: url('img/fejlec.jpg');
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 114px;
+    position: relative;
+    margin: auto;
+}
+
+.cím {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.tartalom {
+    background-image: url('img/tartalomkep.jpg');
+    background-position: 260px 0px;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 560px;
+    height: 490px;
+    margin-left: 752px;
+    margin-top: -17.6px;
+}
+
+.szoveg {
+    top: 43%;
+    left: 50%;
+    position: relative;
+    width: 530px;
+    transform: translate(-50%, -50%);
+    word-break: keep-all;
+}
+
+.szoveg p {
+    color: #484848;
+}
+
+.tartalom2 {
+    background-image: url('img/menukep.jpg');
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #E8E8E8;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    margin: auto;
+    width: 200px;
+    height: 500px;
+    margin-left: 551.5px;
+    margin-top: -520px;
+}
+
+.elerhetoseg {
+    position: relative;
+    top: 5%;
+}
+
+.elerhetoseg h2 {
+    position: relative;
+    left: 5%;
+    color: #800000;
+}
+
+.elerhetoseg p {
+    position: relative;
+    left: 20%;
+    color: #800000;
+}
+
+.nav {
+    height: 20px;
+    width: 1920px;
+    margin: auto;
+    margin-left: 552px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: #E8E8E8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000000;
+}
